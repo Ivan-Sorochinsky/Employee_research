@@ -61,3 +61,4 @@ conn.close() #connect off
 #сортировка по дате сдачи проекта
 #SELECT * FROM "Project" ORDER BY "Дата сдачи" DESC
 #нужно писать свой метод сортировки, т.к. СУБД не поддерживает данную функцию (отсутствует тип date)
+#sqlite->csv = pandas
